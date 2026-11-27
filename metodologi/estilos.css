@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ENCABEZADO */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #fbcfe8, #f9a8d4);
+    border-bottom: 1px solid #ccc;
+}
+
+.header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.header h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 28px;
+    color: #831843;
+}
+
+.header p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 13px;
+    color: #9d4b6c;
+}
+
+/* TABLAS */
+.body {
+    padding-top: 15px;
+}
+
+table {
+    width: 360px;
+    height: 80px;
+    table-layout: fixed;
+    margin: 0 auto 15px auto;
+    border-collapse: collapse;
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 5px 8px;
+    height: 40px;
+    text-align: center;
+}
+
+th {
+    color: white;
+}
+
+/* Tabla 1: rosada */
+table:nth-of-type(1) th {
+    background-color: #ec4899;
+}
+table:nth-of-type(1) td {
+    background-color: #fbcfe8;
+}
+
+/* Tabla 2: azul pastel */
+table:nth-of-type(2) th {
+    background-color: #5aa9e6;
+}
+table:nth-of-type(2) td {
+    background-color: #d6ebfb;
+}
+
+/* Tabla 3: morado pastel */
+table:nth-of-type(3) th {
+    background-color: #a66cf0;
+}
+table:nth-of-type(3) td {
+    background-color: #ebdcff;
+}
